@@ -3,9 +3,9 @@ Empfehlungssystem für Filmdaten
 
 ## Einführung in die Thematik
 
-### Problemstellung 
-Viele Unternehmen verlassen sich auf Kundenbewertungen. Explizites Feedback ist besonders in der Unterhaltungs- und E-Commerce-Branche wichtig, da Kundenbindungen von diesen Bewertungen betroffen sind. Beispielsweise stützt sich der Streaming-Dienstleister Netflix auf solchen Bewertungsdaten, um sein Empfehlungssystem mit den besten Empfehlungen für Filme und Fernsehserien zu versorgen. die personalisiert und für den Benutzer am relevantesten sind.
-Dieses Projekt stellt einen Aufbau eines  einfachen Empfehlungssystems für eine Filmdatenbank das. Dieses System soll folgendes Ziel erreichen: Auf Basis der angesehenen Filme in der Vergangenheit des Benutzers sollen Filmvorschläge gemacht werden. <br>
+Empfehlungssysteme haben Unternehmensanwendung gefunden, indem sie allen Top-Playern auf dem Online-Markt geholfen haben, explizites Feedback zu bekommen. Diese Bewertungen sind
+besonders in der Unterhaltungs- und E-Commerce-Branche wichtig, da Kundenbindungen von diesen Bewertungen betroffen sind. Amazon empfiehlt Produkte basierend auf der Kauf- und Bewertungshistorie. Abgesehen davon stützt sich der Streaming-Dienstleister Netflix auf solche Bewertungsdaten, um sein Empfehlungssystem mit den besten Empfehlungen für Filme und Fernsehserien zu versorgen. Die Benutzer sollen Filme vorgeschlagen werden, die personalisiert und für den Benutzer am relevantesten sein. <br>
+Dieses Projekt stellt des Aufbau eines solchen, einfachen Empfehlungssystems für eine Filmdatenbank das. Das System soll folgendes Ziel erreichen: Auf Basis der angesehenen Filme in der Vergangenheit des Benutzers sollen Filmvorschläge gemacht werden. <br>
 Grundsätzlich sind Empfehlungssysteme nichts anderes als eine automatisierte Form eines „Shop Counter Guy“. Hierbei wird nicht nur das eine Produkt vorgeschlagen, nachdem gesucht wird. Vielmehr werden auch auf Basis des Kaufverhaltens die verwandten Produkten vorgeschlafen, die gekauft werden können. Im spezifischen Fall soll das System auf Basis der angesehenen Filme des Nutzers individuelle, relevant bzw. verwandte Filme vorschlagen, die noch nicht angeschaut wurden. <br>
 Die Fähigkeit des Systems, personalisierte Inhalte basierend auf dem Verhalten der Vergangenheit zu empfehlen, ist unglaublich. Es macht den Kunden Freude und gibt Ihnen einen Grund, immer wieder auf die Website zurückzukehren.
 
