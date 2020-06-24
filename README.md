@@ -12,7 +12,10 @@ Empfehlungssystem für Filmdaten
     - Cleaning: Löschen oder ergänzen von fehlenden Daten
     - Sampling: Große Datenauswahl vs. Laufzeit des Algortihmus -> Representatives Datenset
 - Daten transformieren: 
-    - 
+    - Scaling: Daten weisen verschiedene Einheiten auf (z. B. KG, Euro). ML Algorithmen können mit Attributen mit normalisierten Werten besser umgehen
+    - Decomposition:Komplexe Attribute sollten in ihre Bestandteile heruntergebrochen werden, da ML Algortihmen damit besser zurechtkommen. (z. B. Datum und Uhrzeit in zwe Felder  aufteilen
+    - Aggregation: Verschiedene “Features” können in ein “Feature” zusammengefasst warden. (z. B. ein Eintrag pro Kundenlogins -> Anzahl der Logins
+
 
 ## Was soll programmiert werden?
 - Supervised Learning mit 2 Algorithmen, z.b. KNN, K-Means (Trennung von Training- und Testdaten); Optional: Deep Learning mit Tensorflow
