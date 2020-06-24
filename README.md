@@ -11,7 +11,7 @@ Die Fähigkeit des Systems, personalisierte Inhalte basierend auf dem Verhalten 
 
 ## Erklärung des Datensatzes 
 MovieLens wird von GroupLens, einem Forschungslabor an der Universität von Minnesota, betrieben. MovieLens ist nicht kommerziell und werbefrei. GroupLens Research hat Ratingdatensätze von der MovieLens Website (http://movielens.org) gesammelt und zur Verfügung gestellt. Die Datensätze wurden über verschiedene Zeiträume gesammelt. Es stehen unterschiedliche Daten zu unterschiedlichen Größen und Zeiträumen zu Verfügung. Zu Bildungs- und Forschungszwecken wird ein kleiner und ein großer Datensatz bereitgestellt.
-Die Datensätze ändern sich im Laufe der Zeit und sind für die Berichterstattung über Forschungsergebnisse nicht geeignet. Früher veröffentlichte Versionen werden nicht durch die Movielens Website archiviert, sodass eine exakte Reproduktion nicht gewährleistet werden kann. Dementsprechend sind die Daten über folgenden Link abzurufen: https://workupload.com/file/svMgz6CetV4
+Die Datensätze ändern sich im Laufe der Zeit und sind für die Berichterstattung über Forschungsergebnisse nicht geeignet. Früher veröffentlichte Versionen werden nicht durch die Movielens Website archiviert, sodass eine exakte Reproduktion nicht gewährleistet werden kann. Dementsprechend sind die Daten über folgenden Link abzurufen https://workupload.com/file/svMgz6CetV4.
 Der Datensatz besteht aus 100 000 Bewertungen und 3 600 Tag-Anwendung, angewandt auf 9 000 Filme von 600 Nutzern. Zum Zeitpunkt der Verarbeitung wurde der Datensatz zuletzt September 2018 durch GroupLens aktualisiert.
 ## Überblick über die Vorgehensweise 
 
