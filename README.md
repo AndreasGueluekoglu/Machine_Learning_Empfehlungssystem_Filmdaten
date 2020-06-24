@@ -1,5 +1,5 @@
 # Machine_Learning_Empfehlungssystem_Filmdaten
-Implementierung eines Empfehlungssystem für Filmdaten
+Implementierung eines Empfehlungssystems für Filmdaten
 
 ## Einführung in die Thematik
 
