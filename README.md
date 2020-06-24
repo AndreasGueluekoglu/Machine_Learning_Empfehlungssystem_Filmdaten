@@ -1,6 +1,9 @@
 # Machine_Learning_Empfehlungssystem_Filmdaten
 Empfehlungssystem für Filmdaten
 
+## Einführung in die Thematik
+Dieses Projekt stellt einen Aufbau eines  einfachen Empfehlungssystems für eine Filmdatenbank das. Dieses System soll folgendes Ziel erreichen: Auf Basis der angesehenen Filme in der Vergangenheit des Benutzers sollen Filmvorschläge gemacht werden. 
+
 ## Data Preparation - Machine Learning
 - Daten selektieren: 
     - Welche Daten sind verfügbar?
