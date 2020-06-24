@@ -3,6 +3,7 @@ Empfehlungssystem für Filmdaten
 
 ## Einführung in die Thematik
 Dieses Projekt stellt einen Aufbau eines  einfachen Empfehlungssystems für eine Filmdatenbank das. Dieses System soll folgendes Ziel erreichen: Auf Basis der angesehenen Filme in der Vergangenheit des Benutzers sollen Filmvorschläge gemacht werden. 
+Grundsätzlich sind Empfehlungssysteme nichts anderes als eine automatisierte Form eines „Shop Counter Guy“. Dieser wird nach einem bestimmten Produkt. Hierbei wird nicht nur das eine Produkt vorgeschlagen, nachdem gesucht wird. Vielmehr werden auch auf Basis des Kaufverhaltens die verwandten Produkten vorgeschlafen, die gekauft werden können. Im spezifischen Fall soll das System auf Basis der angesehenen Filme des Nutzers individuelle, relevant bzw. verwandte Filme vorschlagen, die noch nicht angeschaut wurden. 
 
 ## Erklärung des Datensatzes 
 
