@@ -13,28 +13,49 @@ Die Fähigkeit des Systems, personalisierte Inhalte basierend auf dem Verhalten 
 MovieLens wird von GroupLens, einem Forschungslabor an der Universität von Minnesota, betrieben. MovieLens ist nicht kommerziell und werbefrei. GroupLens Research hat Ratingdatensätze von der MovieLens Website (http://movielens.org) gesammelt und zur Verfügung gestellt. Die Datensätze wurden über verschiedene Zeiträume gesammelt. Es stehen unterschiedliche Daten zu unterschiedlichen Größen und Zeiträumen zu Verfügung. Zu Bildungs- und Forschungszwecken wird ein kleiner und ein großer Datensatz bereitgestellt.
 Die Datensätze ändern sich im Laufe der Zeit und sind für die Berichterstattung über Forschungsergebnisse nicht geeignet. Früher veröffentlichte Versionen werden nicht durch die Movielens Website archiviert, sodass eine exakte Reproduktion nicht gewährleistet werden kann. Dementsprechend sind die Daten über folgenden Link abzurufen https://workupload.com/file/svMgz6CetV4.
 Der Datensatz besteht aus 100 000 Bewertungen und 3 600 Tag-Anwendung, angewandt auf 9 000 Filme von 600 Nutzern. Zum Zeitpunkt der Verarbeitung wurde der Datensatz zuletzt September 2018 durch GroupLens aktualisiert.
+
+Die Daten liegen als CSV-Dateien vor und sind einspaltig als "comma-separated-values" gespeichert. Es werden nur Filme aufgeführt, welche mindestens ein Rating oder ein Tag verzeichnen. Ein Film-Rating wird via 0,5 Sterne Bewertung vergeben, wobei sich eine Skala von 0,5 - 5 Sternen ergibt. Bei einem Tag handelt es sich um eine kurze Beschreibung des jeweiligen Filmes, bestehend aus einem Wort oder einem kurzen Satz. Dabei wurde dementsprechend subjektiv durch einen Nutzer ein kurze Beschreibung des Films vergeben. 
+Die Filme sind mit einer eindeutigen ID versehen sowie dem entsprechenden Titel, als auch Genre. Bei dem Genre können ebenfalls Kombinationen vorkommen, welche über eine Pipe "|" getrennt dargestellt sind. Deren Auflistung erfolgt alphabetisch. Folgende Genres sind in den Daten verzeichnet:
+- Action
+- Adventure
+- Animation
+- Children's
+- Comedy
+- Crime
+- Documentary
+- Drama
+- Fantasy
+- Film-Noir
+- Horror
+- Musical
+- Mystery
+- Romance
+- Sci-Fi
+- Thriller
+- War
+- Western
+- (no genres listed)
+Sämtliche Informationen liegen auf der Englischen Sprache vor.
+
 ## Überblick über die Vorgehensweise 
 
 ## Vorverarbeitung und Präparation von den ausgewählten Daten 
 
 ## Data Preparation - Machine Learning
 - Daten selektieren: 
-    - Welche Daten sind verfügbar? 
+    - Welche Daten sind verfügbar?
     - Welche Daten sind nicht verfügbar?
     - Welche Daten sind nicht erforderlich, um die Frage zu beantworten?
     - Nur bei kleinen Problemstellungen ist die Vorauswahl der Daten bereits getroffen
-    
 - Daten vorbereiten:
     - Formatting: Daten in ein geeignetes Format bringen
-    - Cleaning: Löschen oder ergänzen von fehlenden Daten <br>
-    --> Gelöscht wird timestamp-Feature aus Ratingsdata und Tagsdata , da diese keinen wesentlichen Mehrwert für die Anwendung der Algorithmen generiert (Entfernen des Features         wird veranschaulicht)<br>
-    --> 
+    - Cleaning: Löschen oder ergänzen von fehlenden Daten
     - Sampling: Große Datenauswahl vs. Laufzeit des Algortihmus -> Representatives Datenset
 - Daten transformieren: 
     - Scaling: Daten weisen verschiedene Einheiten auf (z. B. KG, Euro). ML Algorithmen können mit Attributen mit normalisierten Werten besser umgehen
     - Decomposition:Komplexe Attribute sollten in ihre Bestandteile heruntergebrochen werden, da ML Algortihmen damit besser zurechtkommen. (z. B. Datum und Uhrzeit in zwe Felder  aufteilen
-    - Aggregation: Verschiedene “Features” können in ein “Feature” zusammengefasst werden. (z. B. ein Eintrag pro Kundenlogins -> Anzahl der Logins)
-)
+    - Aggregation: Verschiedene “Features” können in ein “Feature” zusammengefasst warden. (z. B. ein Eintrag pro Kundenlogins -> Anzahl der Logins
+
 
 ## Was soll programmiert werden?
 - Supervised Learning mit 2 Algorithmen, z.b. KNN, K-Means (Trennung von Training- und Testdaten); Optional: Deep Learning mit Tensorflow
