@@ -61,7 +61,7 @@ Sämtliche Informationen liegen auf der Englischen Sprache vor.
     - Sampling: Große Datenauswahl vs. Laufzeit des Algortihmus -> Representatives Datenset
 - Daten transformieren: 
     - Scaling: Daten weisen verschiedene Einheiten auf (z. B. KG, Euro). ML Algorithmen können mit Attributen mit normalisierten Werten besser umgehen
-    - Decomposition:Komplexe Attribute sollten in ihre Bestandteile heruntergebrochen werden, da ML Algortihmen damit besser zurechtkommen. (z. B. Datum und Uhrzeit in zwe Felder  aufteilen
+    - Decomposition:Komplexe Attribute sollten in ihre Bestandteile heruntergebrochen werden, da ML Algortihmen damit besser zurechtkommen. (z. B. Datum und Uhrzeit in zwei Felder aufteilen)
     - Aggregation: Verschiedene “Features” können in ein “Feature” zusammengefasst warden. (z. B. ein Eintrag pro Kundenlogins -> Anzahl der Logins
 
 
