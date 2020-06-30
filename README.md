@@ -43,7 +43,7 @@ Grundsätzlich wird bei der Implementierung eines Empfehlungssystems für Filmda
    1.1 KNN-Algorithmus <br>
    1.2 K-Means-Algorithmus <br>
 2. Content-Based-Filtering <br>
-![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR6p3q9HGQe9TvMi6ptWNQhDRsQ86ug-VO0iA&usqp=CAU )
+![alt text](https://miro.medium.com/max/998/1*O_GU8xLVlFx8WweIzKNCNw.png)
 
 ## Vorverarbeitung und Präparation von den ausgewählten Daten 
 
