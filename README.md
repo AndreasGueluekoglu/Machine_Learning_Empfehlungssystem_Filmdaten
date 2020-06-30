@@ -19,19 +19,22 @@ Der Datensatz besteht aus 100 000 Bewertungen und 3 600 Tag-Anwendung, angewandt
 
 ## Data Preparation - Machine Learning
 - Daten selektieren: 
-    - Welche Daten sind verfügbar?
+    - Welche Daten sind verfügbar? 
     - Welche Daten sind nicht verfügbar?
     - Welche Daten sind nicht erforderlich, um die Frage zu beantworten?
     - Nur bei kleinen Problemstellungen ist die Vorauswahl der Daten bereits getroffen
+    
 - Daten vorbereiten:
     - Formatting: Daten in ein geeignetes Format bringen
-    - Cleaning: Löschen oder ergänzen von fehlenden Daten
+    - Cleaning: Löschen oder ergänzen von fehlenden Daten <br>
+    --> Gelöscht wird timestamp-Feature aus Ratingsdata und Tagsdata , da diese keinen wesentlichen Mehrwert für die Anwendung der Algorithmen generiert (Entfernen des Features         wird veranschaulicht)<br>
+    --> 
     - Sampling: Große Datenauswahl vs. Laufzeit des Algortihmus -> Representatives Datenset
 - Daten transformieren: 
     - Scaling: Daten weisen verschiedene Einheiten auf (z. B. KG, Euro). ML Algorithmen können mit Attributen mit normalisierten Werten besser umgehen
     - Decomposition:Komplexe Attribute sollten in ihre Bestandteile heruntergebrochen werden, da ML Algortihmen damit besser zurechtkommen. (z. B. Datum und Uhrzeit in zwe Felder  aufteilen
-    - Aggregation: Verschiedene “Features” können in ein “Feature” zusammengefasst warden. (z. B. ein Eintrag pro Kundenlogins -> Anzahl der Logins
-
+    - Aggregation: Verschiedene “Features” können in ein “Feature” zusammengefasst werden. (z. B. ein Eintrag pro Kundenlogins -> Anzahl der Logins)
+)
 
 ## Was soll programmiert werden?
 - Supervised Learning mit 2 Algorithmen, z.b. KNN, K-Means (Trennung von Training- und Testdaten); Optional: Deep Learning mit Tensorflow
