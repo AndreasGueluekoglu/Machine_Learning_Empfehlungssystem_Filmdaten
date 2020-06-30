@@ -48,6 +48,9 @@ Sämtliche Informationen liegen auf der Englischen Sprache vor.
 ### K-Nearest-Neighbors-Algorithmus (KNN)
 
 ## Content-Based-Filtering
+- Idee des Verfahrens anhand eines Beispiels: Wenn einer Person bestimmte Filme gefallen, dann wird der Person Filme ähnliche Filme vorgeschlagen, da diese ihm auch gefallen werden.
+- Demnach basiert das Verfahrens auf die Ähnlichkeit der empfohlenen Filme.
+- Das Verfahren funktioniert im Allgemeinen gut, wenn es einfach ist, den Kontext und die Eigenschaften der Filme zu bestimmen. 
 
 ## Data Preparation - Machine Learning
 - Daten selektieren: 
