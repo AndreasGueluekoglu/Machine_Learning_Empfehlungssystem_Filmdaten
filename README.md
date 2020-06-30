@@ -41,6 +41,14 @@ Sämtliche Informationen liegen auf der Englischen Sprache vor.
 
 ## Vorverarbeitung und Präparation von den ausgewählten Daten 
 
+## Collaborative Filtering
+- Idee des Verfahrens anhand eines Beispiels: Wenn Person 1 die Filme "A", "B" und "C" und Person 2 die Filme "B", "C" und "D" mag, dann weisen die Personen ähnliche Interessen. Demnach sollte Person 1 den Film "D" und Person 2 den Film "A" mögen.
+- Dieser Algorithmus basiert vollständig auf die vergangenen Verhaltensweisen einer Person. Hierbei ist der Kontext nicht von Bedeutung. Diese Vorgehensweise führt dazu, dass das Verfahren eines der am häufigsten verwendeten Algorithmen ist. Es ist nicht abhängig von zusätzlichen, externen Informationen
+
+### K-Nearest-Neighbors-Algorithmus (KNN)
+
+## Content-Based-Filtering
+
 ## Data Preparation - Machine Learning
 - Daten selektieren: 
     - Welche Daten sind verfügbar?
