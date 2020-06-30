@@ -38,6 +38,12 @@ Die Filme sind mit einer eindeutigen ID, dem entsprechenden Titel und Genre vers
 Sämtliche Informationen liegen auf der Englischen Sprache vor.
 
 ## Überblick über die Vorgehensweise 
+Grundsätzlich wird bei der Implementierung eines Empfehlungssystems für Filmdaten zwischen zwei unterschiedlichen Vorgehensweisen unterschieden. Beide Verfahren können mittels unterschiedlicher Algorithmen implementiert werden.
+1. Collaborative Filtering <br>
+   1.1 KNN-Algorithmus <br>
+   1.2 K-Means-Algorithmus <br>
+2. Content-Based-Filtering <br>
+![alt text](https://miro.medium.com/max/1374/1*-Jr1l2rlj9SBcCzlDHtN5g.jpeg)
 
 ## Vorverarbeitung und Präparation von den ausgewählten Daten 
 
