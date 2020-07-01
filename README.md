@@ -55,7 +55,7 @@ Grundsätzlich wird bei der Implementierung eines Empfehlungssystems für Filmda
 #### Allgemeine Beschreibung
 Der KNN-Algorithmus trifft keine Annahmen über die zugrundeliegende Datenverteilung- Stattdessen stützt sich das Verfahren auf die Ähnlichkeit der Elementmerkmale. Wenn der KNN-Algorithmus eine Vorhersage über einen Film macht, berechnet er den "Abstand"  zwischen dem Zielfilm und jedem anderen Film in seiner Datenbank. Hierbei können unterschiedliche Distanzarten herangezogen werden. Anschließend wird eine Rangfolge der Abstände erstellt und die k- nächstgelegenen Nachbarfilme als die ähnlichsten Filmempfehlungen zurückgegeben.
 
-### Ergebnisse
+#### Ergebnisse der Durchführung
 
 ## Content-Based-Filtering
 - Idee des Verfahrens anhand eines Beispiels: Wenn einer Person bestimmte Filme gefallen, dann wird der Person Filme ähnliche Filme vorgeschlagen, da diese ihm auch gefallen werden.
