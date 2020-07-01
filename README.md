@@ -52,6 +52,10 @@ Grundsätzlich wird bei der Implementierung eines Empfehlungssystems für Filmda
 - Dieser Algorithmus basiert vollständig auf die vergangenen Verhaltensweisen einer Person. Hierbei ist der Kontext nicht von Bedeutung. Diese Vorgehensweise führt dazu, dass das Verfahren eines der am häufigsten verwendeten Algorithmen ist. Es ist nicht abhängig von zusätzlichen, externen Informationen
 
 ### K-Nearest-Neighbors-Algorithmus (KNN)
+#### Allgemeine Beschreibung
+Der KNN-Algorithmus trifft keine Annahmen über die zugrundeliegende Datenverteilung- Stattdessen stützt sich das Verfahren auf die Ähnlichkeit der Elementmerkmale. Wenn der KNN-Algorithmus eine Vorhersage über einen Film macht, berechnet er den "Abstand"  zwischen dem Zielfilm und jedem anderen Film in seiner Datenbank. Hierbei können unterschiedliche Distanzarten herangezogen werden. Anschließend wird eine Rangfolge der Abstände erstellt und die k- nächstgelegenen Nachbarfilme als die ähnlichsten Filmempfehlungen zurückgegeben.
+
+### Ergebnisse
 
 ## Content-Based-Filtering
 - Idee des Verfahrens anhand eines Beispiels: Wenn einer Person bestimmte Filme gefallen, dann wird der Person Filme ähnliche Filme vorgeschlagen, da diese ihm auch gefallen werden.
