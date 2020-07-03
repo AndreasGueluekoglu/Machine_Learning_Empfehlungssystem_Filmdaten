@@ -43,7 +43,6 @@ Sämtliche Informationen liegen in Englischer Sprache vor.
 Grundsätzlich wird bei der Implementierung eines Empfehlungssystems für Filmdaten zwischen zwei unterschiedlichen Vorgehensweisen unterschieden. Beide Verfahren können mittels unterschiedlicher Algorithmen implementiert werden.
 1. Collaborative Filtering <br>
    1.1 KNN-Algorithmus <br>
-   1.2 K-Means-Algorithmus <br>
 2. Content-Based-Filtering <br> <br>
 ![alt text](https://miro.medium.com/max/998/1*O_GU8xLVlFx8WweIzKNCNw.png)
 
