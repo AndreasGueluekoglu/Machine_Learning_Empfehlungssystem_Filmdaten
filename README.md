@@ -76,7 +76,7 @@ TF-IDF ist ein Verfahren, um anhand von Key Words den Inhalt eines Textes zu bes
 Bei einem Content-Based-Filtering basiert ein Empfehlungssystem auf Information über den Inhalt eines Films. In diesem speziellen Anwendungsfall liegen von den Usern vergebene Tags und Genres vor, welchen die einzelnen Filme zugeordnet werden können. Diese Tags und Genres werden zu einem String zusammengefasst und durch TF-IDF-Vectorizing ein einen Vektor umgewandelt. Ist dieser Vektor ähnlich zu anderen Vekotoren, so kann mit hoher Wahrscheinlichkeit angenommen werden, dass sich die entsprechenden Filme inhaltlich ähneln. Der inhaltliche Zusammnehang wird durch die zugewiesenen Tags und Genres prognostiziert
 
 ##### Ergebnisse der Durchführung
-Die Ergebnisse des TF-IDF´-Vectorizing sind im [Notebook TFIDF-Vectorizing](https://github.com/AndreasGueluekoglu/Machine_Learning_Empfehlungssystem_Filmdaten/blob/master/algorithms%20final/TFIDF_Vectorizing.ipynb) dargestellt. 
+Die Ergebnisse des TF-IDF-Vectorizing sind im [Notebook TFIDF-Vectorizing](https://github.com/AndreasGueluekoglu/Machine_Learning_Empfehlungssystem_Filmdaten/blob/master/algorithms%20final/TFIDF_Vectorizing.ipynb) dargestellt. 
 
 
 
