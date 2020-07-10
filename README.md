@@ -39,7 +39,7 @@ Die Filme sind mit einer eindeutigen ID, dem entsprechenden Titel und zutreffend
 
 Sämtliche Informationen liegen in Englischer Sprache vor.
 ## Datenvorbereitung
-- Die allgemeine Vorverarbeitung ist im Notebook [DataVisualisation](https://github.com/AndreasGueluekoglu/Machine_Learning_Empfehlungssystem_Filmdaten/blob/master/DataVisualization.ipynb) hinterlegt. Die jeweiligen Vorverarbeitungsschritte der einzelnen Algorithmen unterscheiden sich von der allgemeinen Vorverarbeitung. 
+Die allgemeine Vorverarbeitung ist im Notebook [DataVisualisation](https://github.com/AndreasGueluekoglu/Machine_Learning_Empfehlungssystem_Filmdaten/blob/master/DataVisualization.ipynb) hinterlegt. Die jeweiligen Vorverarbeitungsschritte der einzelnen Algorithmen unterscheiden sich von der allgemeinen Vorverarbeitung. 
 
 ## Überblick über die Vorgehensweise 
 Grundsätzlich wird bei der Implementierung eines Empfehlungssystems für Filmdaten zwischen zwei unterschiedlichen Vorgehensweisen unterschieden. Beide Verfahren können mittels unterschiedlicher Algorithmen implementiert werden.
@@ -61,7 +61,7 @@ Für jeden Algorthmus ist eine individuelle Datenvorbereitung erforderlich, welc
 Der KNN-Algorithmus trifft keine Annahmen über die zugrundeliegende Datenverteilung. Stattdessen stützt sich das Verfahren auf die Ähnlichkeit der Elementmerkmale. Wenn der KNN-Algorithmus eine Vorhersage über einen Film trifft, berechnet er den "Abstand" zwischen dem Zielfilm und jedem anderen Film in der Datenbank. Hierbei können unterschiedliche Distanzarten herangezogen werden. Anschließend wird eine Rangfolge der Abstände erstellt und die k- nächstgelegenen Nachbarfilme als die ähnlichsten Filmempfehlungen zurückgegeben.
 
 ##### Ergebnisse der Durchführung
-Die Ergebnisse des KNN-Algorithmus sind im Notebook KNN dargestellt.
+Die Ergebnisse des KNN-Algorithmus sind im Notebook KNN (Link einpflegen) dargestellt.
 
 ### Content-Based-Filtering
 - Idee des Verfahrens anhand eines Beispiels: Wenn einer Person bestimmte Filme gefallen, dann sollen dieser Person Filme mit ähnlichem Inhalt vorgeschlagen werden.
@@ -76,4 +76,6 @@ TF-IDF ist ein Verfahren, um anhand von Key Words den Inhalt eines Textes zu bes
 Bei einem Content-Based-Filtering basiert ein Empfehlungssystem auf Information über den Inhalt eines Films. In diesem speziellen Anwendungsfall liegen von den Usern vergebene Tags und Genres vor, welchen die einzelnen Filme zugeordnet werden können. Diese Tags und Genres werden zu einem String zusammengefasst und durch TF-IDF-Vectorizing ein einen Vektor umgewandelt. Ist dieser Vektor ähnlich zu anderen Vekotoren, so kann mit hoher Wahrscheinlichkeit angenommen werden, dass sich die entsprechenden Filme inhaltlich ähneln. Der inhaltliche Zusammnehang wird durch die zugewiesenen Tags und Genres prognostiziert
 
 ##### Ergebnisse der Durchführung
-Die Ergebnisse des TF-IDF´-Vectorizing sind im Notebook TFIDF-Vectorizing dargestellt.
+Die Ergebnisse des TF-IDF´-Vectorizing sind im Notebook TFIDF-Vectorizing dargestellt. Link einpflegen)
+
+## Vergleich der beiden Verfahren
