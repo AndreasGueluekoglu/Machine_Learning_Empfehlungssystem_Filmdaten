@@ -39,7 +39,7 @@ Die Filme sind mit einer eindeutigen ID, dem entsprechenden Titel und zutreffend
 
 Sämtliche Informationen liegen in Englischer Sprache vor.
 ## Datenvorbereitung
-- Die allgemeine Vorverarbeitung ist im Notebook DataVisualisation hinterlegt. Die jeweiligen Vorverarbeitungsschritte der einzelnen Algorithmen unterscheiden sich von der allgemeinen Vorverarbeitung. 
+- Die allgemeine Vorverarbeitung ist im Notebook [DataVisualisation](https://github.com/AndreasGueluekoglu/Machine_Learning_Empfehlungssystem_Filmdaten/blob/master/DataVisualization.ipynb) hinterlegt. Die jeweiligen Vorverarbeitungsschritte der einzelnen Algorithmen unterscheiden sich von der allgemeinen Vorverarbeitung. 
 
 ## Überblick über die Vorgehensweise 
 Grundsätzlich wird bei der Implementierung eines Empfehlungssystems für Filmdaten zwischen zwei unterschiedlichen Vorgehensweisen unterschieden. Beide Verfahren können mittels unterschiedlicher Algorithmen implementiert werden.
