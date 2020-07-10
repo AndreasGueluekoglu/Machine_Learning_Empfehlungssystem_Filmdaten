@@ -38,12 +38,15 @@ Die Filme sind mit einer eindeutigen ID, dem entsprechenden Titel und zutreffend
 - (no genres listed)
 
 Sämtliche Informationen liegen in Englischer Sprache vor.
+## Datenvorbereitung
+- 
 
 ## Überblick über die Vorgehensweise 
 Grundsätzlich wird bei der Implementierung eines Empfehlungssystems für Filmdaten zwischen zwei unterschiedlichen Vorgehensweisen unterschieden. Beide Verfahren können mittels unterschiedlicher Algorithmen implementiert werden.
 1. Collaborative Filtering <br>
    1.1 KNN-Algorithmus <br>
-2. Content-Based-Filtering <br> <br>
+2. Content-Based-Filtering <br> 
+   2.1 TFIDF-Vectorizing <br> <br> 
 ![alt text](https://miro.medium.com/max/998/1*O_GU8xLVlFx8WweIzKNCNw.png)
 
 Für jeden Algorthmus ist eine individuelle Datenvorbereitung erforderlich, welche in den ensprechenden Notebooks genauer erläutert wird.
@@ -58,6 +61,7 @@ Für jeden Algorthmus ist eine individuelle Datenvorbereitung erforderlich, welc
 Der KNN-Algorithmus trifft keine Annahmen über die zugrundeliegende Datenverteilung. Stattdessen stützt sich das Verfahren auf die Ähnlichkeit der Elementmerkmale. Wenn der KNN-Algorithmus eine Vorhersage über einen Film trifft, berechnet er den "Abstand" zwischen dem Zielfilm und jedem anderen Film in der Datenbank. Hierbei können unterschiedliche Distanzarten herangezogen werden. Anschließend wird eine Rangfolge der Abstände erstellt und die k- nächstgelegenen Nachbarfilme als die ähnlichsten Filmempfehlungen zurückgegeben.
 
 ##### Ergebnisse der Durchführung
+Die Ergebnisse des KNN-Algorithmus sind im Notebook KNN dargestellt.
 
 ### Content-Based-Filtering
 - Idee des Verfahrens anhand eines Beispiels: Wenn einer Person bestimmte Filme gefallen, dann sollen dieser Person Filme mit ähnlichem Inhalt vorgeschlagen werden.
