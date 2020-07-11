@@ -79,6 +79,39 @@ Bei einem Content-Based-Filtering basiert ein Empfehlungssystem auf Information 
 Die Ergebnisse des TF-IDF-Vectorizing sind im [Notebook TFIDF-Vectorizing](https://github.com/AndreasGueluekoglu/Machine_Learning_Empfehlungssystem_Filmdaten/blob/master/algorithms%20final/TFIDF_Vectorizing.ipynb) dargestellt. 
 
 
-
-
 ## Vergleich der beiden Verfahren
+
+Der KNN- Algoritmus liefert für den Film "Back to the Future Part II" das folgende Ergebnis:
+1. Back to the Future Part III (1990) : 0.218889
+2. Back to the Future (1985):  0.297845
+3. Indiana Jones and the Temple of Doom (1984):  0.337417
+4. Star Wars: Episode VI - Return of the Jedi (1983): 0.366805
+5. Ghostbusters (1984): 0.378280
+
+Im Gegensatz dazu werden im TFIDF-Vectorizing-Verfahren folgende Filme vorgeschlagen:
+1. Back to the Future (1985): 1.000000
+2. Bill & Ted's Excellent Adventure (1989): 1.000000
+3. Stargate (1994): 0.960134
+4. Time Bandits (1981): 0.957048
+5. Bill & Ted's Bogus Journey (1991): 0.957048
+
+
+Vorteile des KNN-Algorithmus im Vergleich zum TFIDF-Vectorizing:
+- Einfacher Algorithmus zum Verstehen
+- Schnelle Durchführung
+
+Nachteile des KNN-Algorithmus im Vergleich zum TFIDF-Vectorizing:
+- Selbstständige Definiton (Hyperparameter), die Ergebnisse stark beeinflussen (Im fallbeispiel: Heranziehen von Filmen, die mind. 50 mal von Usern bewertet wurden)
+
+Vorteile des TFIDF-Vectorizings im Vergleich zum KNN-Algorithmus:
+
+
+Nachteile des TFIDF-Vectorizings im Vergleich zum KNN-Algorithmus:
+
+
+
+
+
+
+
+
