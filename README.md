@@ -11,8 +11,8 @@ Grundsätzlich soll das System auf Basis der angesehenen Filme des Nutzers  ähn
 
 ### Erklärung des Datensatzes 
 MovieLens ein Empfehlungssystem für Filme und wird von GroupLens, einem Forschungslabor an der Universität von Minnesota, betreut. MovieLens ist nicht kommerziell und werbefrei. GroupLens Research hat Ratingdatensätze von der MovieLens Website (http://movielens.org) gesammelt und zur Verfügung gestellt. Die Datensätze wurden über verschiedene Zeiträume gesammelt. Es stehen Datensätze in unterschiedlichen Größen und von unterschiedlichen Zeiträumen zur Verfügung. Zu Bildungs- und Forschungszwecken wird ein kleiner und ein großer Datensatz bereitgestellt.
-Früher veröffentlichte Versionen werden nicht durch die Movielens Website archiviert, sodass eine exakte Reproduktion nicht gewährleistet werden kann. Dementsprechend sind die Daten über folgenden Link abzurufen https://workupload.com/file/svMgz6CetV4.
-Der Datensatz besteht aus 100 000 Bewertungen (Ratings) und 3 600 Tags vergeben von rund 600 Nutzern, angewandt auf 9 000 Filme. Zum Zeitpunkt der Verarbeitung wurde der Datensatz zuletzt  im September 2018 durch GroupLens aktualisiert.
+Früher veröffentlichte Versionen werden nicht durch die Movielens Website archiviert, sodass eine exakte Reproduktion nicht gewährleistet werden kann. Dementsprechend sind die Daten über den hinterlegten [Link](https://workupload.com/file/svMgz6CetV4 abzurufen).
+Der Datensatz besteht aus 100 000 Bewertungen (Ratings) und 3 600 Tags, vergeben von rund 600 Nutzern, angewandt auf 9 000 Filme. Zum Zeitpunkt der Verarbeitung wurde der Datensatz zuletzt  im September 2018 durch GroupLens aktualisiert.
 
 Die Daten liegen im CSV-Format vor. Es werden nur Filme aufgeführt, welche mindestens ein Rating oder ein Tag verzeichnen. Ein Film-Rating wird mittels Skala von 0 bis 5 mit einer Schrittweite von 0,5 vergeben. Bei einem Tag handelt es sich um Key Word(s), welche die Nutzer dem Film zugewiesen haben. 
 
@@ -72,8 +72,8 @@ Die Ergebnisse des KNN-Algorithmus sind im Notebook [KNN_Recommendation](https:/
 ##### Allgemeine Beschreibung
 TF-IDF ist ein Verfahren, um anhand von Key Words den Inhalt eines Textes zu bestimmen. Dazu werden zwei Metriken verwendet: TF (term frequency) und IDF (inverse document frequency). TF beschreibt die Häufigkeit eines Keywords in einem Text, IDF bezieht sich auf die Häufigkeit eines Key Words in einem Text im Vergleich zu anderen Texten. Diese Kennzahlen werden in einen Vektor umgewandelt. Ähneln sich zwei Vektoren, so ist davon auszugehen, dass sich auch der Inhalt der zugehörigen Texte ähnelt.
 
-##### Beschreibung des Anwednungsfalls MovieLens
-Bei einem Content-Based-Filtering basiert ein Empfehlungssystem auf Information über den Inhalt eines Films. In diesem speziellen Anwendungsfall liegen von den Usern vergebene Tags und Genres vor, welchen die einzelnen Filme zugeordnet werden können. Diese Tags und Genres werden zu einem String zusammengefasst und durch TF-IDF-Vectorizing ein einen Vektor umgewandelt. Ist dieser Vektor ähnlich zu anderen Vekotoren, so kann mit hoher Wahrscheinlichkeit angenommen werden, dass sich die entsprechenden Filme inhaltlich ähneln. Der inhaltliche Zusammnehang wird durch die zugewiesenen Tags und Genres prognostiziert
+##### Beschreibung des Anwendungsfalls MovieLens
+Bei einem Content-Based-Filtering basiert ein Empfehlungssystem auf Information über den Inhalt eines Films. In diesem speziellen Anwendungsfall liegen von den Usern vergebene Tags und Genres vor, welchen die einzelnen Filme zugeordnet werden können. Diese Tags und Genres werden zu einem String zusammengefasst und durch TF-IDF-Vectorizing in einen Vektor umgewandelt. Ist dieser Vektor ähnlich zu anderen Vekotoren, so kann mit hoher Wahrscheinlichkeit angenommen werden, dass sich die entsprechenden Filme inhaltlich ähneln. Der inhaltliche Zusammnehang wird durch die zugewiesenen Tags und Genres prognostiziert
 
 ##### Ergebnisse der Durchführung
 Die Ergebnisse des TF-IDF-Vectorizing sind im [Notebook TFIDF-Vectorizing](https://github.com/AndreasGueluekoglu/Machine_Learning_Empfehlungssystem_Filmdaten/blob/master/algorithms%20final/TFIDF_Vectorizing.ipynb) dargestellt. 
@@ -97,25 +97,24 @@ Im Gegensatz dazu werden im TFIDF-Vectorizing-Verfahren folgende Filme vorgeschl
 
 
 Vorteile des KNN-Algorithmus:
-- Einfach zu implementieren
-- Verwendung eines Hyperparameter
-- Nutzung für Regression und Klassifikation 
+- Einfache Implementierung
+- Verwendung eines einzelnen Hyperparameters
+- Nutzung für Regression und Klassifikation
 - Stetige Anpassung (memory-based approach)
 
 
 Nachteile des KNN-Algorithmus:
-- Selbstständige Definiton (Hyperparameter), die Ergebnisse stark beeinflussen (Im Fallbeispiel: Heranziehen von Filmen, die mind. 50 mal von Usern bewertet wurden)
+- Selbstständige Definiton des Hypermarameters k, der das Ergebnis stark beeinflusst und deshalb richtig gewählt werden sollte.
 - Langsam bei großen Datensätzen
-- Optimale Anzahl der Nachbarn muss gefunden werden
 
 Vorteile des TFIDF-Vectorizings:
 - Geringe Rechenleistung 
-- Darstellung eines einfachen Vergleichs zweier Dokumente
+- Möglichkeit eines einfachen Vergleichs zweier Dokumente
 - “basic metric”,  um grundlegende Features zu extrahieren
 
 
 Nachteile des TFIDF-Vectorizings:
-- Basis auf BoW-Model
+- Basis auf BoW-Model (Bag-of-Words)
 → keine Berücksichtigung von Semantik oder Position im Text
 
 
