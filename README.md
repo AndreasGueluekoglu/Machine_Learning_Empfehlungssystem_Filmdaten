@@ -115,7 +115,7 @@ Vorteile des TFIDF-Vectorizings im Vergleich zum KNN-Algorithmus:
 
 
 Nachteile des TFIDF-Vectorizings im Vergleich zum KNN-Algorithmus:
-. Basis auf BoW-Model
+- Basis auf BoW-Model
 → keine Berücksichtigung von Semantik oder Position im Text
 
 
