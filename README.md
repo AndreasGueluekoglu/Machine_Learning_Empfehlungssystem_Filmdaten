@@ -97,16 +97,26 @@ Im Gegensatz dazu werden im TFIDF-Vectorizing-Verfahren folgende Filme vorgeschl
 
 
 Vorteile des KNN-Algorithmus im Vergleich zum TFIDF-Vectorizing:
-- Einfacher Algorithmus zum Verstehen
-- Schnelle Durchführung
+- Einfach zu implementieren
+- Verwendung eines Hyperparameter
+- Nutzung für Regression und Klassifikation 
+- Stetige Anpassung (memory-based approach)
+
 
 Nachteile des KNN-Algorithmus im Vergleich zum TFIDF-Vectorizing:
 - Selbstständige Definiton (Hyperparameter), die Ergebnisse stark beeinflussen (Im fallbeispiel: Heranziehen von Filmen, die mind. 50 mal von Usern bewertet wurden)
+- Langsam bei großen Datensätzen
+- Optimale Anzahl der Nachbarn muss gefunden werden
 
 Vorteile des TFIDF-Vectorizings im Vergleich zum KNN-Algorithmus:
+- Geringe Rechenleistung 
+- Darstellung eines einfachen Vergleichs zweier Dokumente
+- “basic metric”,  um grundlegende Features zu extrahieren
 
 
 Nachteile des TFIDF-Vectorizings im Vergleich zum KNN-Algorithmus:
+. Basis auf BoW-Model
+→ keine Berücksichtigung von Semantik oder Position im Text
 
 
 
