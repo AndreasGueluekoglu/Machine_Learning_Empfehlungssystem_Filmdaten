@@ -11,7 +11,7 @@ Grundsätzlich soll das System auf Basis der angesehenen Filme des Nutzers  ähn
 
 ### Erklärung des Datensatzes 
 MovieLens ein Empfehlungssystem für Filme und wird von GroupLens, einem Forschungslabor an der Universität von Minnesota, betreut. MovieLens ist nicht kommerziell und werbefrei. GroupLens Research hat Ratingdatensätze von der MovieLens Website (http://movielens.org) gesammelt und zur Verfügung gestellt. Die Datensätze wurden über verschiedene Zeiträume gesammelt. Es stehen Datensätze in unterschiedlichen Größen und von unterschiedlichen Zeiträumen zur Verfügung. Zu Bildungs- und Forschungszwecken wird ein kleiner und ein großer Datensatz bereitgestellt.
-Die Datensätze und werden im Laufe der Zeit angepasst. Früher veröffentlichte Versionen werden nicht durch die Movielens Website archiviert, sodass eine exakte Reproduktion nicht gewährleistet werden kann. Dementsprechend sind die Daten über folgenden Link abzurufen https://workupload.com/file/svMgz6CetV4.
+Früher veröffentlichte Versionen werden nicht durch die Movielens Website archiviert, sodass eine exakte Reproduktion nicht gewährleistet werden kann. Dementsprechend sind die Daten über folgenden Link abzurufen https://workupload.com/file/svMgz6CetV4.
 Der Datensatz besteht aus 100 000 Bewertungen (Ratings) und 3 600 Tags vergeben von rund 600 Nutzern, angewandt auf 9 000 Filme. Zum Zeitpunkt der Verarbeitung wurde der Datensatz zuletzt  im September 2018 durch GroupLens aktualisiert.
 
 Die Daten liegen im CSV-Format vor. Es werden nur Filme aufgeführt, welche mindestens ein Rating oder ein Tag verzeichnen. Ein Film-Rating wird mittels Skala von 0 bis 5 mit einer Schrittweite von 0,5 vergeben. Bei einem Tag handelt es sich um Key Word(s), welche die Nutzer dem Film zugewiesen haben. 
@@ -61,7 +61,8 @@ Für jeden Algorthmus ist eine individuelle Datenvorbereitung erforderlich, welc
 Der KNN-Algorithmus trifft keine Annahmen über die zugrundeliegende Datenverteilung. Stattdessen stützt sich das Verfahren auf die Ähnlichkeit der Elementmerkmale. Wenn der KNN-Algorithmus eine Vorhersage über einen Film trifft, berechnet er den "Abstand" zwischen dem Zielfilm und jedem anderen Film in der Datenbank. Hierbei können unterschiedliche Distanzarten herangezogen werden. Anschließend wird eine Rangfolge der Abstände erstellt und die k- nächstgelegenen Nachbarfilme als die ähnlichsten Filmempfehlungen zurückgegeben.
 
 ##### Ergebnisse der Durchführung
-Die Ergebnisse des KNN-Algorithmus sind im Notebook KNN (Link einpflegen) dargestellt.
+Die Ergebnisse des KNN-Algorithmus sind im [Notebook KNN_Recommendation](https://github.com/AndreasGueluekoglu/Machine_Learning_Empfehlungssystem_Filmdaten/blob/master/KNN_Recommendation.ipynb) dargestellt. 
+ dargestellt.
 
 ### Content-Based-Filtering
 - Idee des Verfahrens anhand eines Beispiels: Wenn einer Person bestimmte Filme gefallen, dann sollen dieser Person Filme mit ähnlichem Inhalt vorgeschlagen werden.
@@ -96,25 +97,25 @@ Im Gegensatz dazu werden im TFIDF-Vectorizing-Verfahren folgende Filme vorgeschl
 5. Bill & Ted's Bogus Journey (1991): 0.957048
 
 
-Vorteile des KNN-Algorithmus im Vergleich zum TFIDF-Vectorizing:
+Vorteile des KNN-Algorithmus:
 - Einfach zu implementieren
 - Verwendung eines Hyperparameter
 - Nutzung für Regression und Klassifikation 
 - Stetige Anpassung (memory-based approach)
 
 
-Nachteile des KNN-Algorithmus im Vergleich zum TFIDF-Vectorizing:
-- Selbstständige Definiton (Hyperparameter), die Ergebnisse stark beeinflussen (Im fallbeispiel: Heranziehen von Filmen, die mind. 50 mal von Usern bewertet wurden)
+Nachteile des KNN-Algorithmus:
+- Selbstständige Definiton (Hyperparameter), die Ergebnisse stark beeinflussen (Im Fallbeispiel: Heranziehen von Filmen, die mind. 50 mal von Usern bewertet wurden)
 - Langsam bei großen Datensätzen
 - Optimale Anzahl der Nachbarn muss gefunden werden
 
-Vorteile des TFIDF-Vectorizings im Vergleich zum KNN-Algorithmus:
+Vorteile des TFIDF-Vectorizings:
 - Geringe Rechenleistung 
 - Darstellung eines einfachen Vergleichs zweier Dokumente
 - “basic metric”,  um grundlegende Features zu extrahieren
 
 
-Nachteile des TFIDF-Vectorizings im Vergleich zum KNN-Algorithmus:
+Nachteile des TFIDF-Vectorizings:
 - Basis auf BoW-Model
 → keine Berücksichtigung von Semantik oder Position im Text
 
