@@ -6,7 +6,7 @@ Implementierung eines Empfehlungssystems für Filme basierend auf dem MovieLens-
 
 Empfehlungssysteme haben Unternehmensanwendung gefunden, indem sie allen Top-Playern auf dem Online-Markt geholfen haben, explizites Feedback zu bekommen. Diese Bewertungen sind
 besonders in der Unterhaltungs- und E-Commerce-Branche wichtig, da Kundenbindungen von diesen Bewertungen betroffen sind. Amazon empfiehlt Produkte basierend auf Kauf- und Bewertungshistorie der Kunden. Abgesehen davon stützt sich der Streaming-Dienstleister Netflix auf solche Bewertungsdaten, um sein Empfehlungssystem mit den besten Empfehlungen für Filme und Serien zu versorgen. Den Benutzern sollen Filme vorgeschlagen werden, die für den individuellen Benutzer am relevantesten sind. <br>
-Dieses Projekt stellt den Aufbau eines solchen, einfachen Empfehlungssystems für Filme aus dem MovieLens-Dataset (siehe 'Wichtige Links') dar. Das System soll folgendes Ziel erreichen: Auf Basis der angesehenen Filme in der Vergangenheit sollen Filmvorschläge gemacht werden. <br>
+Dieses Projekt stellt den Aufbau eines solchen, einfachen Empfehlungssystems für Filme aus dem MovieLens-Dataset (siehe 'Wichtige Links') dar. Das System soll folgendes Ziel erreichen: Auf Basis der angesehenen Filme in der Vergangenheit und den entsprechenden Nutzerbewertungen sollen Filmvorschläge gemacht werden. <br>
 Grundsätzlich soll das System auf Basis der angesehenen Filme des Nutzers  ähnliche bzw. verwandte Filme vorschlagen, die noch nicht angeschaut wurden. <br>
 
 ### Erklärung des Datensatzes 
