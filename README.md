@@ -62,7 +62,6 @@ Der KNN-Algorithmus trifft keine Annahmen über die zugrundeliegende Datenvertei
 
 ##### Ergebnisse der Durchführung
 Die Ergebnisse des KNN-Algorithmus sind im Notebook [KNN_Recommendation](https://github.com/AndreasGueluekoglu/Machine_Learning_Empfehlungssystem_Filmdaten/blob/master/KNN_Recommendation.ipynb) dargestellt. 
- dargestellt.
 
 ### Content-Based-Filtering
 - Idee des Verfahrens anhand eines Beispiels: Wenn einer Person bestimmte Filme gefallen, dann sollen dieser Person Filme mit ähnlichem Inhalt vorgeschlagen werden.
