@@ -61,7 +61,7 @@ Für jeden Algorthmus ist eine individuelle Datenvorbereitung erforderlich, welc
 Der KNN-Algorithmus trifft keine Annahmen über die zugrundeliegende Datenverteilung. Stattdessen stützt sich das Verfahren auf die Ähnlichkeit der Elementmerkmale. Wenn der KNN-Algorithmus eine Vorhersage über einen Film trifft, berechnet er den "Abstand" zwischen dem Zielfilm und jedem anderen Film in der Datenbank. Hierbei können unterschiedliche Distanzarten herangezogen werden. Anschließend wird eine Rangfolge der Abstände erstellt und die k- nächstgelegenen Nachbarfilme als die ähnlichsten Filmempfehlungen zurückgegeben.
 
 ##### Ergebnisse der Durchführung
-Die Ergebnisse des KNN-Algorithmus sind im [Notebook KNN_Recommendation](https://github.com/AndreasGueluekoglu/Machine_Learning_Empfehlungssystem_Filmdaten/blob/master/KNN_Recommendation.ipynb) dargestellt. 
+Die Ergebnisse des KNN-Algorithmus sind im Notebook [KNN_Recommendation](https://github.com/AndreasGueluekoglu/Machine_Learning_Empfehlungssystem_Filmdaten/blob/master/KNN_Recommendation.ipynb) dargestellt. 
  dargestellt.
 
 ### Content-Based-Filtering
